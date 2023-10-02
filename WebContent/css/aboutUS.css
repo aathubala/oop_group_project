@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+
+/* Container holding the image and the text */
+.contain {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  z-index:0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:black;
+  font-size:70px;
+  font-family:'Times New Roman', serif;
+  font-weight:bold;
+  overflow:hidden;
+}
+
+.maintxt{
+	font-family: "Times New Roman", Times, serif;
+	font-size:50px;
+	left-margin:10px;
+}
+
+.subtxt{
+	
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 40%;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display:inline-block;
+  text-align:center;
+  margin:60px 60px 60px 80px;
+}
+
+.split2 {
+  height: 100%;
+  width: 40%;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display:inline-block;
+  text-align:center;
+  margin:100px 50px 0 80px;
+}
+
+.applyloan{
+	padding:20px 40px;
+	margin: 20px;
+	background-color:green;
+	border-radius:10px;
+	color:white;
+	font-size:20px;
+}
+
+.greentxt{
+	 color:Green; 
+	 font-weight:bold; 
+	 text-align:left; 
+	 font-size:15px;
+}
+
+.applyloan:hover{
+	background-color:lawngreen;
+	transition:0.7s;
+}
+
+p{
+	font-size: 14px;
+	text-align:left;
+}
+
+.personImg {
+	width:100%;
+	border-radius:5px;
+}
+
+.doublecomma{
+	font-size:80px;
+}
+
+#secRow{
+	text-align:center;
+}
+
+.zoom {
+	overflow:hidden;
+	display:inline-block;
+	border-radius:5px;
+	height:500px;
+	width:17%;
+	padding: 10px;
+	background-color: none;
+	transition: transform .2s; /* Animation */
+	margin: 10px;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.greentxt2{
+	 color:Green; 
+	 font-weight:bold; 
+	 text-align:middle; 
+	 font-size:15px;
+}

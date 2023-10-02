@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.alert2 {
+  padding: 20px;
+  background-color: green;
+  color: white;
+}
+
+.alert3 {
+  padding: 20px;
+  background-color: Orange;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}

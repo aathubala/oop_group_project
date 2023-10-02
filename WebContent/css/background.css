@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+
+
+body {
+	background:
+		linear-gradient(90deg, white (22px - 1px), transparent 1%) center,
+		linear-gradient(#7577FA (22px - 1px), transparent 1%) center,
+		gray;
+	background-size: 22px 1px;
+}
